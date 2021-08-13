@@ -1,0 +1,52 @@
+{
+  "region": "us-east-1",
+  "cognito": {
+    "poolId": "us-east-1:2d1858a8-1032-4e31-a854-1441e36116f4",
+    "aws_cognito_region": "us-east-1",
+    "region": "us-east-1"
+  },
+  "lex": {
+    "botName": "ScheduleAppointment_enIN",
+    "initialText": "May I help you?",
+    "initialSpeechInstruction": "Say 'Order Flowers' to get started.",
+    "initialUtterance": "",
+    "region": "us-east-1",
+    "retryOnLexPostTextTimeout": false,
+    "retryCountPostTextTimeout": 1,
+    "v2BotId": "",
+    "v2BotAliasId": "",
+    "v2BotLocaleId": ""
+  },
+  "ui": {
+    "parentOrigin": "http://localhost:8000",
+    "toolbarTitle": "ITTStarBot",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "",
+    "enableLogin": false,
+    "forceLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false,
+    "saveHistory": false
+  },
+  "polly": {
+    "voiceId": ""
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
